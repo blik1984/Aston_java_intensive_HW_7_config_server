@@ -1,3 +1,10 @@
+server:
+  port: 8888
 spring:
   application:
-    name: configServer
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/blik1984/config-repo
