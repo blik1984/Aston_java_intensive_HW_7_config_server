@@ -7,4 +7,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/blik1984/config-repo
+          uri: https://github.com/blik1984/Aston_java_intensive_HW_7_config_repo
