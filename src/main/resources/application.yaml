@@ -8,3 +8,8 @@ spring:
       server:
         git:
           uri: https://github.com/blik1984/Aston_java_intensive_HW_7_config_repo
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
